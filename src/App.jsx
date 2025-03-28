@@ -39,7 +39,11 @@ const checkBox = (id) => {
 
   return (
 <div className="container">
-    <h2>Todo</h2>
+
+    <div className="flex gap-x-8 justify-center items-center">
+      <h2>Todo</h2>
+      <img src="./next-tasks.svg" alt="" className='w-24 h-16'/>
+    </div>
 
     <form className='form' onSubmit={handleClick}>
       <div className="form-row">
